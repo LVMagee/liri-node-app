@@ -32,7 +32,7 @@ switch (action) {
 	case "do-random":
 	doRandom();
 	break;
-	default: "error-This"
+	default: console.log("Enter, my-Tweets, spotify-This, movie-This, or, do-Random");
 
 }
 
