@@ -1,0 +1,26 @@
+=============== LOG ENTRY BEGIN ===============
+Sat Apr 29 2017 01:25:44 GMT-0400 (EDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/lvmagee/Desktop/Github/liri-node-app/liri,mytweets
+ 
+DATA OUTPUT:
+2. Tweet: Learning all about node.js!!
+Created at: Mon Apr 24 19:45:05 +0000 2017 
+1. Tweet: Working on liri.
+Created at: Sat Apr 29 04:26:49 +0000 2017 
+=============== LOG ENTRY END ===============
+ 
+=============== LOG ENTRY BEGIN ===============
+Sat Apr 29 2017 01:36:11 GMT-0400 (EDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/lvmagee/Desktop/Github/liri-node-app/liri,my-Tweets
+ 
+DATA OUTPUT:
+1. Tweet: Working on liri.
+Created at: Sat Apr 29 04:26:49 +0000 2017 
+2. Tweet: Learning all about node.js!!
+Created at: Mon Apr 24 19:45:05 +0000 2017 
+=============== LOG ENTRY END ===============
+ 
