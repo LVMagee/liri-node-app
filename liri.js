@@ -114,7 +114,7 @@ function doRandom() {
 			console.log(error);
 		} else {
 			var dataArr = data.split(',');
-			if (dataArr[0] === 'spotify') {
+			if (dataArr[0] === 'spotify-This') {
 				spotifyThis(dataArr[1]);
 			}
 		}
