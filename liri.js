@@ -14,7 +14,7 @@ var params = {
 }
 
 
-// Switch function use case statments as callbacks
+// Switch function
 switch (action) {
 	case "my-Tweets":
 	myTweets();
@@ -41,7 +41,6 @@ function myTweets() {
 			console.log('Last 20 Tweets:')
 			console.log(' ');
 			for (i = 0; i < tweets.length; i++) {
-                // var number = i + 1;
                 var tweetResults =
                 "Dive_Zen says: " + [i + 1] + '. ' + tweets[i].text + "\r\n" +
                 "Created on: " + tweets[i].created_at + "\r\n" +
