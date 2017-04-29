@@ -17,15 +17,19 @@ var params = {
 // Switch function
 switch (action) {
 	case "my-Tweets":
+	case "my-tweets":
 	myTweets();
 	break;
 	case "spotify-This":
+	case "spotify-this":
 	spotifyThis(value);
 	break;
 	case "movie-This":
+	case "movie-this":
 	movieThis(value);
 	break;
 	case "do-Random":
+	case "do-random":
 	doRandom();
 	break;
 	default: "error-This"
@@ -114,8 +118,11 @@ function doRandom() {
 			console.log(error);
 		} else {
 			var dataArr = data.split(',');
-			if (dataArr[0] === 'spotify-This') {
+			if (dataArr[0].toLowerCase() === 'spotify-this') {
 				spotifyThis(dataArr[1]);
+			}
+			if (dataArr[0].toLowerCase() === 'movie-this') {
+				movieThis(dataArr[1]);
 			}
 		}
 	});
